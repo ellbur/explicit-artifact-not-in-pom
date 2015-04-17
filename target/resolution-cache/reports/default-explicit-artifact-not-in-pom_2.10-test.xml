@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="explicit-artifact-not-in-pom_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150417130519"/>
+	<dependencies>
+		<module organisation="se.gawell" name="fakeriak-war">
+			<revision name="0.0.5" status="release" pubdate="20120302010709" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="successful" details="" size="717" time="286" location="/home/owen/.ivy2/cache/se.gawell/fakeriak-war/ivy-0.0.5.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/se.gawell/fakeriak-war/ivy-0.0.5.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/se/gawell/fakeriak-war/0.0.5/fakeriak-war-0.0.5.pom"/>
+				<caller organisation="default" name="explicit-artifact-not-in-pom_2.10" conf="test, compile, runtime" rev="0.0.5" rev-constraint-default="0.0.5" rev-constraint-dynamic="0.0.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="fakeriak-war" type="war" ext="war" status="successful" details="" size="1999311" time="2448" location="/home/owen/.ivy2/cache/se.gawell/fakeriak-war/wars/fakeriak-war-0.0.5.war">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/se/gawell/fakeriak-war/0.0.5/fakeriak-war-0.0.5.war"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="se.gawell" name="fakeriak-jar">
+			<revision name="0.0.5" status="release" pubdate="20120302010637" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="2">
+				<metadata-artifact status="successful" details="" size="542" time="354" location="/home/owen/.ivy2/cache/se.gawell/fakeriak-jar/ivy-0.0.5.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/se.gawell/fakeriak-jar/ivy-0.0.5.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/se/gawell/fakeriak-jar/0.0.5/fakeriak-jar-0.0.5.pom"/>
+				<caller organisation="se.gawell" name="fakeriak-war" conf="default, compile, runtime, master" rev="0.0.5" rev-constraint-default="0.0.5" rev-constraint-dynamic="0.0.5" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="fakeriak-jar" type="jar" ext="jar" status="successful" details="" size="16711" time="461" location="/home/owen/.ivy2/cache/se.gawell/fakeriak-jar/jars/fakeriak-jar-0.0.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/se/gawell/fakeriak-jar/0.0.5/fakeriak-jar-0.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.7.5" status="release" pubdate="20110401232654" resolver="public" artresolver="public" homepage="http://jackson.codehaus.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="13">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1242" time="387" location="/home/owen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.7.5.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.7.5.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.5/jackson-mapper-asl-1.7.5.pom"/>
+				<caller organisation="se.gawell" name="fakeriak-war" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.0.5"/>
+				<caller organisation="se.gawell" name="fakeriak-jar" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="successful" details="" size="630117" time="668" location="/home/owen/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.7.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.5/jackson-mapper-asl-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.7.5" status="release" pubdate="20110401232641" resolver="public" artresolver="public" homepage="http://jackson.codehaus.org" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1016" time="367" location="/home/owen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.7.5.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.7.5.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.5/jackson-core-asl-1.7.5.pom"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.7.5"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="successful" details="" size="207562" time="435" location="/home/owen/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.7.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.5/jackson-core-asl-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-webapp">
+			<revision name="8.0.2.v20111006" status="release" pubdate="20111006204025" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="11">
+				<metadata-artifact status="successful" details="" size="3255" time="335" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-webapp/ivy-8.0.2.v20111006.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-webapp/ivy-8.0.2.v20111006.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/8.0.2.v20111006/jetty-webapp-8.0.2.v20111006.pom"/>
+				<caller organisation="se.gawell" name="fakeriak-war" conf="default, compile, runtime, master" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="0.0.5"/>
+				<caller organisation="se.gawell" name="fakeriak-jar" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="0.0.5"/>
+				<artifacts>
+					<artifact name="jetty-webapp" type="jar" ext="jar" status="successful" details="" size="105751" time="682" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-webapp/jars/jetty-webapp-8.0.2.v20111006.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-webapp/8.0.2.v20111006/jetty-webapp-8.0.2.v20111006.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-xml">
+			<revision name="8.0.2.v20111006" status="release" pubdate="20111006204000" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="12">
+				<metadata-artifact status="successful" details="" size="1947" time="373" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-xml/ivy-8.0.2.v20111006.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-xml/ivy-8.0.2.v20111006.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/8.0.2.v20111006/jetty-xml-8.0.2.v20111006.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="8.0.2.v20111006"/>
+				<artifacts>
+					<artifact name="jetty-xml" type="jar" ext="jar" status="successful" details="" size="35336" time="420" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-xml/jars/jetty-xml-8.0.2.v20111006.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/8.0.2.v20111006/jetty-xml-8.0.2.v20111006.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="8.0.2.v20111006" status="release" pubdate="20111006203828" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="3">
+				<metadata-artifact status="successful" details="" size="2656" time="322" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-8.0.2.v20111006.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-8.0.2.v20111006.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.0.2.v20111006/jetty-servlet-8.0.2.v20111006.pom"/>
+				<caller organisation="se.gawell" name="fakeriak-war" conf="default, compile, runtime, master" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="0.0.5"/>
+				<caller organisation="se.gawell" name="fakeriak-jar" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="0.0.5"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-webapp" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="8.0.2.v20111006"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="jar" ext="jar" status="successful" details="" size="90342" time="448" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-8.0.2.v20111006.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.0.2.v20111006/jetty-servlet-8.0.2.v20111006.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-security">
+			<revision name="8.0.2.v20111006" status="release" pubdate="20111006203809" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="4">
+				<metadata-artifact status="successful" details="" size="2698" time="419" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-security/ivy-8.0.2.v20111006.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-security/ivy-8.0.2.v20111006.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.0.2.v20111006/jetty-security-8.0.2.v20111006.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-servlet" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="8.0.2.v20111006"/>
+				<artifacts>
+					<artifact name="jetty-security" type="jar" ext="jar" status="successful" details="" size="85834" time="401" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-security/jars/jetty-security-8.0.2.v20111006.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.0.2.v20111006/jetty-security-8.0.2.v20111006.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="8.0.2.v20111006" status="release" pubdate="20111006203639" resolver="public" artresolver="public" homepage="${jetty.url}" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="5">
+				<metadata-artifact status="successful" details="" size="3963" time="505" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-8.0.2.v20111006.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-8.0.2.v20111006.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.0.2.v20111006/jetty-server-8.0.2.v20111006.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-security" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="8.0.2.v20111006"/>
+				<artifacts>
+					<artifact name="jetty-server" type="jar" ext="jar" status="successful" details="" size="327296" time="766" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-8.0.2.v20111006.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.0.2.v20111006/jetty-server-8.0.2.v20111006.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="8.0.2.v20111006" status="release" pubdate="20111006203316" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="8">
+				<metadata-artifact status="successful" details="" size="2666" time="341" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-8.0.2.v20111006.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-8.0.2.v20111006.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.0.2.v20111006/jetty-http-8.0.2.v20111006.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="8.0.2.v20111006"/>
+				<artifacts>
+					<artifact name="jetty-http" type="jar" ext="jar" status="successful" details="" size="119185" time="358" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-8.0.2.v20111006.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.0.2.v20111006/jetty-http-8.0.2.v20111006.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="8.0.2.v20111006" status="release" pubdate="20111006203259" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="9">
+				<metadata-artifact status="successful" details="" size="2142" time="305" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-8.0.2.v20111006.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-8.0.2.v20111006.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.0.2.v20111006/jetty-io-8.0.2.v20111006.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-http" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="8.0.2.v20111006"/>
+				<artifacts>
+					<artifact name="jetty-io" type="jar" ext="jar" status="successful" details="" size="95651" time="357" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-8.0.2.v20111006.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.0.2.v20111006/jetty-io-8.0.2.v20111006.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="8.0.2.v20111006" status="release" pubdate="20111006203221" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="10">
+				<metadata-artifact status="successful" details="" size="3116" time="396" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-8.0.2.v20111006.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-8.0.2.v20111006.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.0.2.v20111006/jetty-util-8.0.2.v20111006.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-xml" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="8.0.2.v20111006"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-io" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="8.0.2.v20111006"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="successful" details="" size="233631" time="704" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-8.0.2.v20111006.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.0.2.v20111006/jetty-util-8.0.2.v20111006.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-continuation">
+			<revision name="8.0.2.v20111006" status="release" pubdate="20111006203329" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="7">
+				<metadata-artifact status="successful" details="" size="2707" time="356" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-8.0.2.v20111006.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-8.0.2.v20111006.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.0.2.v20111006/jetty-continuation-8.0.2.v20111006.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.0.2.v20111006" rev-constraint-default="8.0.2.v20111006" rev-constraint-dynamic="8.0.2.v20111006" callerrev="8.0.2.v20111006"/>
+				<artifacts>
+					<artifact name="jetty-continuation" type="jar" ext="jar" status="successful" details="" size="21252" time="378" location="/home/owen/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-8.0.2.v20111006.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.0.2.v20111006/jetty-continuation-8.0.2.v20111006.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="servlet-api">
+			<revision name="3.0.20100224" status="release" pubdate="20100223224807" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="6">
+				<metadata-artifact status="successful" details="" size="2563" time="303" location="/home/owen/.ivy2/cache/org.mortbay.jetty/servlet-api/ivy-3.0.20100224.xml" searched="true" original-local-location="/home/owen/.ivy2/cache/org.mortbay.jetty/servlet-api/ivy-3.0.20100224.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/mortbay/jetty/servlet-api/3.0.20100224/servlet-api-3.0.20100224.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="3.0.20100224" rev-constraint-default="3.0.20100224" rev-constraint-dynamic="3.0.20100224" callerrev="8.0.2.v20111006"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="successful" details="" size="210354" time="392" location="/home/owen/.ivy2/cache/org.mortbay.jetty/servlet-api/jars/servlet-api-3.0.20100224.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/mortbay/jetty/servlet-api/3.0.20100224/servlet-api-3.0.20100224.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.3" status="release" pubdate="20130927054454" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.3/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/owen/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom"/>
+				<caller organisation="default" name="explicit-artifact-not-in-pom_2.10" conf="test, compile, runtime" rev="2.10.3" rev-constraint-default="2.10.3" rev-constraint-dynamic="2.10.3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126003" time="0" location="/home/owen/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
